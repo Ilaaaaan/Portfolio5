@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mon portfolio</title>
+	<!-- Lien vers la bibliothèque CSS de Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<!-- Lien vers notre propre feuille de style -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Lien vers Font Awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  	<a class="navbar-brand" href="#">Ilan Saint-Solieux</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    	<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Présentation</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="Compétences.html">Compétences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="veille.html">Veille Technologique</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cv.html">Mon Cv</a>
+				</li>
+	   		</ul>
+	  </div>
+	</nav>
+
+	<!-- Section d'en-tête -->
+	<section id="header" class="jumbotron jumbotron-fluid">
+	  	<div class="container">
+	    	<h1 class="display-4">Bienvenue sur mon portfolio</h1>
+	    	<p class="lead">Étudiant en BTS SIO</p>
+	  </div>
+	</section>
+
+	<!-- Section À propos -->
+	<section id="about" class="container mb-5">
+		<div class="row">
+			<div class="col-md-6">
+				<h2>À propos de moi</h2></br>
+				<p>Je m'appelle Ilan Saint-Solieux, j'ai 21 ans et suis étudiant en BTS SIO deuxième année Option Slam, je suis également à la recherche d'une alternance pour poursuivre mon cursus vers une licence d'Infomatique générale.</p>
+			</div>
+			<div class="col-md-6 align-items-center text-center">
+				<img src="images/photo3.jpg" id="photo">
+			</div>
+		</div>
+	</section>
+
+	<!-- Section expériences -->
+	<section id="exp" class="container mb-5">
+		<div class="row">
+			<div class="col-md-10">
+				<h2>Mes expériences professionnelles</h2></br>
+				<h5>Au cours de mon cursurs j'ai eu l'occasion d'effectuer des stages qui m'ont permis d'avoir des premières expérience professionnelles :	 </h5>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10">
+				</br><h6>- Stage Hura-Office :</h6>
+				<p>Durant ce stage j'ai pu participer au développement d'un programme d'envoi de mails s'inscrivant dans une campagne de communication de l'entreprise, ce qui m'as notamment introduis au langage du PHP.</p>
+				<a href="AttestationHura.pdf" class="btn btn-primary mb-5" download>Attestation</a>
+			</div>
+			<div class="col-md-2 align-self-center">
+				<a href="https://hura-office.com"><img src="images/hurraoffice.png" style="border-radius: 10px;" id="logohura" width="100" height="100"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10">
+				</br><h6>- Stage Ardennes Remorque :</h6>
+				<p>Découverte de la solution Prestashop dans le cadre d'un e-commerce et mise en place de de la gestion des stocks.</p>
+				<a href="AttestationAR.pdf" class="btn btn-primary mb-5" download>Attestation</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10">
+			</br><h6>- Stage AS SIN Athlétisme :</h6>
+				<p>Pendant ce stage nous avons effectué des modifications sur le site Wix de l'association selon leurs critères.</p>
+				<a href="AttestationAS.pdf" class="btn btn-primary mb-5" download>Attestation</a>
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-dark text-light py-3 sticky-footer">
+		<div class="container-fluid">
+			Retrouvez moi sur Linkedin<a href="https://www.linkedin.com/in/saint-solieux-ilan-63165a222/"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+	</footer>
